@@ -8,3 +8,5 @@ fun readInput2(): List<Pair<String, Int>> = "input2_1.txt".readResource().use { 
         .filter { it.size == 2 }
         .map { it[0] to it[1].toInt() }
 }
+
+fun readInput3(): List<String> = "input3_1.txt".readResource().use { it.readLines() }
